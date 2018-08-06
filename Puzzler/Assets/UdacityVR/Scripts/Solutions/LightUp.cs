@@ -27,10 +27,10 @@ public class LightUp : MonoBehaviour
 		// this script is attached to.
 		gameLogic.PlayerSelection(this.gameObject);
 
-		// Get the GVR audio source component on this orb and play the audio.
-		/* Uncomment the line below during 'A Little More Feedback!' lesson.*/
-		// this.GetComponent<GvrAudioSource>().Play();
-	}
+        // Get the GVR audio source component on this orb and play the audio.
+        /* Uncomment the line below during 'A Little More Feedback!' lesson.*/
+        this.GetComponent<GvrAudioSource>().Play();
+    }
 
 	// Called when the reticle moves over the orb.
 	// This function can be hooked up in Unity by adding a Pointer Enter event trigger to the orb.
